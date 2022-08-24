@@ -1,0 +1,61 @@
+table {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+tr {
+    background-color: rgb(243, 199, 146);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(106, 18, 179);
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+
+th {
+    font-size: 30px;
+    background-color: rgb(231, 43, 18);
+}
+
+td {
+    font-size: 25px;
+}
+
+input {
+    padding: 10px;
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(13, 13, 14);
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container {
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    border-radius: 5px;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: black;
+}
